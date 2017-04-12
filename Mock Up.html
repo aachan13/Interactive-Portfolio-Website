@@ -1,0 +1,131 @@
+<html>
+
+<head>
+		<title>Portofolio</title>
+		
+		
+		<link rel="stylesheet" href="main.css">
+		
+		
+</head>
+<body>
+	<div class="content">
+				
+		<div class="row">
+			<div class="col-md-8">
+			<img src="logo.jpg" width= "500px" height="150px" align="center">
+			</div>
+			
+			<div class="col-md-4">
+			<h1 align="center"> KOREAN GIRLBAND </h1>
+			
+			</div>
+		</div>	
+		<hr color="black" size="4px">
+		
+		<div class="row">
+			<div class="col-md-12">
+				<img src="member.jpg" width="680px" height="460px" align="center">			
+				</div>
+			</div>
+		<hr color="black" size="4px">
+		
+		<div class="row">
+			<div class="col-md-12">
+				<h2> Members </h2>			
+				</div>
+		</div>		
+		
+		<div class="row">
+			<div class="col-md-3">
+				<img src="rose.jpg" width="170px" height="200px" align="center">
+				<p align="center"> ROSE </p>
+			</div>
+			
+			<div class="col-md-3">
+				<img src="lisa.jpg" width="170px" height="200px" align="center">
+				<p align="center"> LISA </p>
+			</div>
+			
+			<div class="col-md-3">
+				<img src="jiso.jpg" width="170px" height="200px" align="center">
+				<p align="center"> JISOO </p>
+			</div>
+			
+			<div class="col-md-3">
+				<img src="jenie.jpg" width="170px" height="200px" align="center">
+				<p align="center"> JENNIE </p>
+			</div>
+		</div>
+		<hr color="black" size="4px">
+		
+		<div class="col-md-3">
+				<p align="center"> CONTACTS </p>
+			</div>
+		
+		
+		<script type="text/javascript">
+         function validate()
+      {
+      
+         if( document.myForm.Name.value == "" )
+         {
+            alert( "Please provide your name!" );
+            document.myForm.Name.focus() ;
+            return false;
+         }
+         
+		 
+		 
+         if( document.myForm.EMail.value == "" )
+         {
+            alert( "Please provide your Email!" );
+            document.myForm.EMail.focus() ;
+            return false;
+         }
+         
+		 if( document.myForm.Telepon.value == "" )
+         {
+            alert( "Please provide your phone number!" );
+            document.myForm.Telepon.focus() ;
+            return false;
+         }
+         
+         return( true );
+      }
+      </script>
+		
+		<form action="/cgi-bin/test.cgi" name="myForm" onsubmit="return(validate());">
+         <table cellspacing="3" cellpadding="3" border="2">
+            
+            <tr>
+               <td align="right">Name</td>
+               <td><input type="text" name="Name" /></td>
+            </tr>
+            
+            <tr>
+               <td align="right">EMail</td>
+               <td><input type="text" name="EMail"/></td>
+            </tr>
+			
+		    <tr>
+               <td align="right">Telepon</td>
+               <td><input type="text" name="Telepon" /></td>
+            </tr>
+            
+            <tr>
+               <td align="right"></td>
+               <td><input type="submit" value="Submit" /></td>
+            </tr>
+            
+         </table>
+		<hr color="black" size="4px">
+
+      
+		
+	</div>
+	
+
+
+</body>
+</html>
